@@ -1,0 +1,23 @@
+{
+  "name": "demobotclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node demobot.js",
+    "worker": "node demobot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dropbox": "^4.0.30",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.6"
+  }
+}
