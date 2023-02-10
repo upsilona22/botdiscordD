@@ -17,7 +17,7 @@ const modRoleID = '783016924475949116';
 
 const fetch = require('isomorphic-fetch');
 const Dropbox = require('dropbox').Dropbox;
-let dbx = new Dropbox({accessToken: config.dropTOKEN, fetch: fetch});
+let dbx = new Dropbox({accessToken: config.dropToken, fetch: fetch});
 let failedDownload = false;
 
 // On startup downloads files from Dropbox to keep continuity across sessions
